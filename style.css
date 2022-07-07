@@ -22,8 +22,7 @@
     }
     .divider{width: 300px;
         z-index: 2;
-        position: relative;
-        bottom: 45px;
+       
     }
     .ad{
         color: hsl(150, 100%, 66%);
