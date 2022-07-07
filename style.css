@@ -1,0 +1,103 @@
+@media only screen and (max-width:490px) {
+    body{
+        background-color: hsl(217,19%, 24%);
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 150px;
+    }
+    .box{ display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(217,19%, 38%);
+        max-width: 340px;
+        min-width: 340px;
+        height: 250px;
+        color: white;
+        text-align: center;
+    }
+    .divider{ 
+        z-index: 2;
+    }
+    .ad{
+        color: hsl(150, 100%, 66%);
+        
+    }
+    .btn{border: none;
+        width:50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: hsl(150, 100%, 66%);
+    }
+    .button{
+        position: relative;
+        bottom: 25px;
+        box-shadow: none;
+    }
+    .button :hover{ 
+        background: #39ff14;
+        box-shadow: 0 0 50px  #39ff14;;
+    }
+    .attribution{
+        color: white;
+        text-align: center;
+    }
+    a{color: white;
+        text-decoration: none;}
+}
+
+@media only screen and (min-width: 490px) {
+    body{
+        background-color: hsl(217,19%, 24%);
+    }
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+.box{ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217,19%, 38%);
+    max-width: 450px;
+    min-width: 450px;
+    height: 250px;
+    color: white;
+    text-align: center;
+}
+.divider{ 
+    z-index: 2;
+}
+.ad{
+    color: hsl(150, 100%, 66%);
+    
+}
+.btn{border: none;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: hsl(150, 100%, 66%);
+}
+.button{
+    position: relative;
+    bottom: 25px;
+    box-shadow: none;
+}
+.button :hover{ 
+    background: #39ff14;
+    box-shadow: 0 0 50px  #39ff14;}
+
+    .attribution{
+        color: white;
+        text-align: center;
+    }
+    a{color: white;
+    text-decoration: none;}
+}
