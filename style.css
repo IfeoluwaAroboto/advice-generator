@@ -16,14 +16,12 @@
         background-color: hsl(217,19%, 38%);
         max-width: 340px;
         min-width: 340px;
-        height: 250px;
+        height: 290px;
         color: white;
         text-align: center;
     }
     .divider{width: 300px;
-        z-index: 2;
-        position: relative;
-        bottom: 45px;
+        
     }
     .ad{
         color: hsl(150, 100%, 66%);
