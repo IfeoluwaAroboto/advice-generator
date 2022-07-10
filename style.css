@@ -19,6 +19,7 @@
         height: 290px;
         color: white;
         text-align: center;
+        border-radius: 20px 20px 20px 20px;
     }
     .divider{width: 300px;
         z-index: 2;
@@ -48,6 +49,19 @@
     }
     a{color: white;
         text-decoration: none;}
+        .dice{
+            animation: 2s linear infinite rotateLoop;
+          }
+          
+          @keyframes rotateLoop {
+            from {
+              transform: rotate(0deg);
+            }
+          
+            to {
+              transform: rotate(360deg);
+            }
+          }
 }
 
 @media only screen and (min-width: 490px) {
@@ -70,6 +84,7 @@
     min-width: 450px;
     height: 250px;
     color: white;
+    border-radius: 20px 20px 20px 20px;
     text-align: center;
 }
 .divider{ 
@@ -100,4 +115,18 @@
     }
     a{color: white;
     text-decoration: none;}
+
+    .dice{
+        animation: 2s linear infinite rotateLoop;
+      }
+      
+      @keyframes rotateLoop {
+        from {
+          transform: rotate(0deg);
+        }
+      
+        to {
+          transform: rotate(360deg);
+        }
+      }
 }
